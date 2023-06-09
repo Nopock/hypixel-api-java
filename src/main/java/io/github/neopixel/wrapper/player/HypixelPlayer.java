@@ -178,6 +178,6 @@ public class HypixelPlayer {
     }
 
     public HypixelSocialMedia getSocialMedia() {
-        return new HypixelSocialMedia(jsonHandler.getJSONHandler("socialMedia"))
+        return new HypixelSocialMedia(jsonHandler.getJSONHandler("socialMedia"));
     }
 }
